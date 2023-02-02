@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GraphicalUserInterface">
+  <grid id="27dc6" binding="gridPanel" layout-manager="GridLayoutManager" row-count="8" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="928" height="565"/>
+    </constraints>
+    <properties>
+      <background color="-12417548"/>
+      <foreground color="-12417548"/>
+    </properties>
+    <border type="empty">
+      <size top="20" left="20" bottom="20" right="20"/>
+    </border>
+    <children>
+      <grid id="46fb7" binding="genTextPanel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12417548"/>
+          <enabled value="true"/>
+          <foreground color="-12417548"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="1990e" class="javax.swing.JTextField" binding="genTextBox">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-721153"/>
+              <font size="36"/>
+              <text value="Generated Text Will Appear Here..."/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="82d2f" binding="genTextButtons" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12417548"/>
+          <enabled value="true"/>
+          <foreground color="-12417548"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a3a1" class="javax.swing.JButton" binding="clearGenTextButton">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag top="2" left="2" bottom="2" right="2" weightx="0.1" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-25548"/>
+              <enabled value="true"/>
+              <font size="36"/>
+              <foreground color="-16777216"/>
+              <hideActionText value="false"/>
+              <horizontalAlignment value="2"/>
+              <opaque value="true"/>
+              <selected value="false"/>
+              <text value="Clear Text"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+          <component id="a83e7" class="javax.swing.JButton" binding="genTextButton">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag top="2" left="2" bottom="2" right="2" weightx="0.1" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-25548"/>
+              <enabled value="true"/>
+              <font size="36"/>
+              <foreground color="-16777216"/>
+              <hideActionText value="false"/>
+              <horizontalAlignment value="2"/>
+              <opaque value="true"/>
+              <selected value="false"/>
+              <text value="Generate Text"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+          <grid id="4081a" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.75" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-12417548"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="de8e5" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.05" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-12417548"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+        </children>
+      </grid>
+      <grid id="85ee6" binding="enterPasswordPanel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12417548"/>
+          <enabled value="true"/>
+          <foreground color="-12417548"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="11d60" class="javax.swing.JTextField" binding="enterPasswordHereTextField" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-721153"/>
+              <font size="36"/>
+              <text value="Enter Password Here..."/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="2e68b" binding="encryptDecryptButtonsPanel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12417548"/>
+          <enabled value="false"/>
+          <foreground color="-12417548"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="9666d" class="javax.swing.JButton" binding="encryptButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag top="2" left="2" bottom="2" right="2" weightx="0.1" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-25548"/>
+              <enabled value="true"/>
+              <font size="36"/>
+              <foreground color="-16777216"/>
+              <hideActionText value="false"/>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="11"/>
+              <text value="Encrypt"/>
+              <verticalAlignment value="0"/>
+            </properties>
+          </component>
+          <component id="93ddb" class="javax.swing.JButton" binding="decryptButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag top="2" left="2" bottom="2" right="2" weightx="0.1" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-25548"/>
+              <enabled value="true"/>
+              <font size="36"/>
+              <foreground color="-16777216"/>
+              <hideActionText value="false"/>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="11"/>
+              <text value="Decrypt"/>
+            </properties>
+          </component>
+          <component id="f9f4e" class="javax.swing.JButton" binding="clearPassEnterTextButton">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag top="2" left="2" bottom="2" right="2" weightx="0.1" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-25548"/>
+              <borderPainted value="true"/>
+              <contentAreaFilled value="true"/>
+              <doubleBuffered value="false"/>
+              <enabled value="true"/>
+              <focusPainted value="true"/>
+              <font size="36"/>
+              <foreground color="-16777216"/>
+              <hideActionText value="false"/>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="11"/>
+              <text value="Clear Text"/>
+            </properties>
+          </component>
+          <grid id="31e00" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.054" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-12417548"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="ebf47" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.05" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-12417548"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="a43fc" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.5" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-12417548"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+        </children>
+      </grid>
+      <grid id="f71bd" binding="outputPasswordPanel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12417548"/>
+          <enabled value="true"/>
+          <foreground color="-12417548"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d681c" class="javax.swing.JTextField" binding="encryptedDecryptedPasswordTextField" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-721153"/>
+              <font size="36"/>
+              <horizontalAlignment value="10"/>
+              <text value="Encrypted/Decrypted Password..."/>
+            </properties>
+          </component>
+          <component id="8b148" class="javax.swing.JButton" binding="clearEncDecTextButton">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-25548"/>
+              <font size="36"/>
+              <foreground color="-16777216"/>
+              <horizontalAlignment value="2"/>
+              <text value="Clear Text"/>
+            </properties>
+          </component>
+          <grid id="21744" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.05" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-12417548"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+        </children>
+      </grid>
+      <grid id="8e1a9" binding="fileCreatePanel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12417548"/>
+          <foreground color="-12417548"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="2d67b" class="javax.swing.JTextField" binding="enterNameForNewTextField" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="0.2" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-721153"/>
+              <font size="36"/>
+              <text value="Enter Name for New File"/>
+            </properties>
+          </component>
+          <component id="733be" class="javax.swing.JButton" binding="clearFileTextButton">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.1" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-25548"/>
+              <borderPainted value="true"/>
+              <contentAreaFilled value="true"/>
+              <enabled value="true"/>
+              <font size="36"/>
+              <foreground color="-16777216"/>
+              <horizontalAlignment value="2"/>
+              <text value="Clear Text"/>
+            </properties>
+          </component>
+          <component id="1ec75" class="javax.swing.JButton" binding="createFileButton">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.1" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-25548"/>
+              <borderPainted value="true"/>
+              <contentAreaFilled value="true"/>
+              <enabled value="true"/>
+              <font size="36"/>
+              <foreground color="-16777216"/>
+              <horizontalAlignment value="2"/>
+              <text value="Create File"/>
+            </properties>
+          </component>
+          <grid id="911d7" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.1" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-12417548"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="95172" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.1" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-12417548"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+        </children>
+      </grid>
+      <grid id="2fa5a" binding="fileSavePanel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-12417548"/>
+          <foreground color="-12417548"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f07be" class="javax.swing.JTextField" binding="enterFileNameToTextField" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="0.1" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-721153"/>
+              <font size="36"/>
+              <text value="Enter File Name To Save To"/>
+            </properties>
+          </component>
+          <component id="c68de" class="javax.swing.JButton" binding="clearCreateFileTextButton">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.1" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-25548"/>
+              <enabled value="true"/>
+              <font size="36"/>
+              <foreground color="-16777216"/>
+              <horizontalAlignment value="2"/>
+              <text value="Clear Text"/>
+            </properties>
+          </component>
+          <component id="82c48" class="javax.swing.JButton" binding="saveToFileButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.1" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-25548"/>
+              <enabled value="true"/>
+              <font size="36"/>
+              <foreground color="-16777216"/>
+              <horizontalAlignment value="2"/>
+              <text value="Save To File"/>
+            </properties>
+          </component>
+          <grid id="2c8ba" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.1" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-12417548"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="54d4" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.1" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-12417548"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+        </children>
+      </grid>
+      <grid id="25835" binding="clearAllPanel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-12417548"/>
+          <foreground color="-12417548"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f89fc" class="javax.swing.JButton" binding="clearAllButton">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-53718"/>
+              <borderPainted value="true"/>
+              <contentAreaFilled value="true"/>
+              <enabled value="true"/>
+              <font size="48" style="1"/>
+              <foreground color="-16777216"/>
+              <horizontalAlignment value="2"/>
+              <text value="Clear All"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
