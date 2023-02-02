@@ -65,6 +65,7 @@
               <opaque value="true"/>
               <selected value="false"/>
               <text value="Clear Text"/>
+              <toolTipText value="Clicking this button will clear the text from the text box above."/>
               <visible value="true"/>
             </properties>
           </component>
@@ -83,6 +84,7 @@
               <opaque value="true"/>
               <selected value="false"/>
               <text value="Generate Text"/>
+              <toolTipText value="Clicking this button will generate random text to use for encrypting a password."/>
               <visible value="true"/>
             </properties>
           </component>
@@ -163,6 +165,7 @@
               <horizontalAlignment value="2"/>
               <horizontalTextPosition value="11"/>
               <text value="Encrypt"/>
+              <toolTipText value="Clicking this button will encrypt whatever text is in there using base64 encoding and will display the password in the text field below."/>
               <verticalAlignment value="0"/>
             </properties>
           </component>
@@ -180,6 +183,7 @@
               <horizontalAlignment value="2"/>
               <horizontalTextPosition value="11"/>
               <text value="Decrypt"/>
+              <toolTipText value="Clicking this button will take the text above and attempt to decode it, displaying the output below or an error message if it failed."/>
             </properties>
           </component>
           <component id="f9f4e" class="javax.swing.JButton" binding="clearPassEnterTextButton">
@@ -200,6 +204,7 @@
               <horizontalAlignment value="2"/>
               <horizontalTextPosition value="11"/>
               <text value="Clear Text"/>
+              <toolTipText value="Clicking this button will clear the enter password here text field."/>
             </properties>
           </component>
           <grid id="31e00" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
@@ -277,6 +282,7 @@
               <foreground color="-16777216"/>
               <horizontalAlignment value="2"/>
               <text value="Clear Text"/>
+              <toolTipText value="Clicking this button will clear the encrypted/decrypted text field."/>
             </properties>
           </component>
           <grid id="21744" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
@@ -314,7 +320,7 @@
               <autoscrolls value="false"/>
               <background color="-721153"/>
               <font size="36"/>
-              <text value="Enter Name for New File"/>
+              <text value="Enter Name for New File..."/>
             </properties>
           </component>
           <component id="733be" class="javax.swing.JButton" binding="clearFileTextButton">
@@ -331,6 +337,7 @@
               <foreground color="-16777216"/>
               <horizontalAlignment value="2"/>
               <text value="Clear Text"/>
+              <toolTipText value="Clicking this button will clear the text field to the left."/>
             </properties>
           </component>
           <component id="1ec75" class="javax.swing.JButton" binding="createFileButton">
@@ -347,6 +354,7 @@
               <foreground color="-16777216"/>
               <horizontalAlignment value="2"/>
               <text value="Create File"/>
+              <toolTipText value="Clicking this button will create a file with the name specified in the text box to the left."/>
             </properties>
           </component>
           <grid id="911d7" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
@@ -412,6 +420,7 @@
               <foreground color="-16777216"/>
               <horizontalAlignment value="2"/>
               <text value="Clear Text"/>
+              <toolTipText value="Clicking this button will clear the text field to the left."/>
             </properties>
           </component>
           <component id="82c48" class="javax.swing.JButton" binding="saveToFileButton" default-binding="true">
@@ -427,6 +436,7 @@
               <foreground color="-16777216"/>
               <horizontalAlignment value="2"/>
               <text value="Save To File"/>
+              <toolTipText value="Clicking this button will save whatever text is in the encrypted/decrypted text field to the specified file."/>
             </properties>
           </component>
           <grid id="2c8ba" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
@@ -480,6 +490,7 @@
               <foreground color="-16777216"/>
               <horizontalAlignment value="2"/>
               <text value="Clear All"/>
+              <toolTipText value="**WARNING** Clicking this button will clear every single text field!"/>
             </properties>
           </component>
         </children>

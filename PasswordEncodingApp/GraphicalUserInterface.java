@@ -133,6 +133,10 @@ public class GraphicalUserInterface extends JFrame{
             @Override
             public void actionPerformed(ActionEvent e) {
                 String fileName = enterNameForNewTextField.getText();
+                if(fileName.equals("Enter Name for New File..."))
+                {
+                    fileName = new String("output");
+                }
                 fileName = fileName.concat(".txt");
                 try {
                     BufferedWriter writer = new BufferedWriter(new FileWriter(fileName));
