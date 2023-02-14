@@ -12,6 +12,8 @@
 # Receiving Data
     To receive the data from this microservice, refer to the JSON file it generates containing the 
     quote from the initial JSON it handled within the current working directory where the program is stored.
+# UML Sequence Diagram
+![image](umlDiagram.png)
 # Help
     To get help, email me at canns@oregonstate.edu
 # Attributions
