@@ -7,6 +7,13 @@ import java.net.URL;
 
 public class QOD_Microservice {
 
+    /*
+     *
+     *
+     *
+     *
+     *
+     */
     public static void main(String[] args) throws IOException {
         BufferedReader br;
 
@@ -22,7 +29,6 @@ public class QOD_Microservice {
         try
         {
             URL quoteURL = new URL("https://api.api-ninjas.com/v1/quotes?category=happiness");
-
             /* Initialize the connection and set it to a get request */
             HttpURLConnection connection = (HttpURLConnection) quoteURL.openConnection();
             connection.setRequestProperty("accept", "application/json");
@@ -56,7 +62,7 @@ public class QOD_Microservice {
             outputJSON.put("QuoteOfTheDay", quote);
             String currDir = System.getProperty("user.dir");
 
-            FileWriter file = new FileWriter(currDir + "quote.json", false);
+            FileWriter file = new FileWriter(currDir + "/quote.json", false);
             file.write(outputJSON.toString());
             file.close();
         }
