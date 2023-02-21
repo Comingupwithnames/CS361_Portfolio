@@ -17,7 +17,7 @@ public class QOD_Microservice {
     public static void main(String[] args) throws IOException {
         BufferedReader br;
 
-        String key ="/9xx5UbA1VjgwZG2d/pBVA==to3Zplh5kVYMv7zM";
+        String key ="YOUR KEY HERE"; //Insert your own API key for this to function
         String lineToRead;
         StringBuffer responseContent = new StringBuffer();
         String quote = null;
